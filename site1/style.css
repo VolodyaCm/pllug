@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+    background-color: #e9ebee;
+    font-family: Comic Sans MS, sans-serif	
+}
+/*стилі для index.html*/
+.head{
+	width: 1000px;
+	margin: auto;
+
+    
+}
+.top{
+	width: 100%;
+	height: 150px;
+	background-color: #639FFF;
+	
+
+}
+.main hr{
+	margin-top: 9px;
+}
+.main img{
+	width: 250px;
+	height: auto;
+	margin-top: 25px;
+	margin-left: 25px;
+	
+	
+
+}
+.right_main{
+	display: block;
+	float: left;
+	width: 300px;
+	height: 871px;
+	margin-left: 20px;
+	background-color: #fff;
+	
+	
+}
+.left_main{
+	display: block;
+	float: right;
+	width: 650px;
+	height: 870px;
+	margin-right: 20px;
+	background-color: #fff;
+}
+.top p{
+	font-size: 60px;
+	opacity: 0.05;
+	text-align: center;
+}
+.top .menu{
+	margin-top: 100px;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 26px;
+	background-color: #5888d6;
+}
+.top .menu li{
+list-style: none;
+float: left;
+font-size: 18px;
+text-align: center;
+}
+
+.top .menu a{
+	text-decoration: none;
+	padding-left: 10px;
+    padding-right: 10px;
+    color:#504343;
+    transition: 0.7s;
+}
+.top .menu a:hover{
+	background-color: #446aa7;
+	color: #fff;
+	transition: 0.4s;
+}
+.top .menu a:hover{
+	padding-right: 50px;
+	
+}
+.block1{
+	height: 250px;
+	width: 100%;
+	box-shadow: 0 1px 0 0 #AEAEAE;
+	margin-top: 40px;
+	
+}
+.block1 p{
+	font-size: 18px;
+	line-height: 26px;
+	margin-left: 15px;
+	margin-right: 12px;
+
+}
+.block1 a{
+  background-color: #423F3F;
+  text-decoration:none;color:#fff;
+  padding:3px 9px;
+  font-size: 18px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 56px;
+  transition: 0.7s;
+}
+.block1 a:hover{
+	background-color: #639FFF;
+	transition: 0.4s;
+}
+.footer{
+	width: 96%;
+	height: 150px;
+	display: block;
+	background-color: #fff;
+    margin: auto;
+    margin-top: 960px;
+    background-color: #639FFF;
+
+}
+.footer a{
+	float: right;
+	margin-top: 120px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: black;
+}
+.footer a:hover{
+	color:#fff;
+}
+/*?\стилі для biograf1.html*/
+.main2{
+	width: 960px;
+	height: 900px;
+	background-color: #fff;
+	margin: auto;
+}
+.footer2{
+	width: 96%;
+	height: 150px;
+	display: block;
+	background-color: #fff;
+    margin: auto;
+    margin-top: 300sspx;
+    background-color: #639FFF;
+
+}
+.footer2 a{
+	float: right;
+	margin-top: 120px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: black;
+}
+.footer2 a:hover{
+	color:#fff;
+}
+.main2 img{
+	width: 250px;
+	height: auto;
+	margin-left: 25px;
+}
+.main2 p{
+	float: right;
+}
+.block_R{
+	float: right;
+	display: block;
+	width: 600px;
+	margin-top: 40px; 
+	margin-right: 40px;
+	font-size: 18px;
+    line-height: 30px;
+}
+.block_L{
+	margin-top: 40px;
+	float: left;
+	display: block;
+	width: 260px;
+	position: absolute;
+}
+.block_B{
+	line-height: 30px;
+	font-size: 18px;
+	width: 900px;
+	margin-left: 25px;
+	margin-top: 320px;
+	position: absolute;
+}
